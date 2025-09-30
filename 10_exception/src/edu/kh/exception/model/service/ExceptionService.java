@@ -90,27 +90,12 @@ public class ExceptionService {
 				// 다형성 - 업캐스팅 : 부모타입 참조변수로 자식객체 참조
 				// -> 상위 타입의 예외 클래스를 catch문에 작성하면
 				// 다형성 업캐스팅에 의해 모든 후손 예외클래스를 잡아서 한 번에 처리 가능!!
-				
-				
-				
+			
 				System.out.println("뭔지 모르겠으나 예외가 발생해서 처리함");
 				e.printStackTrace();
 			}
 		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
 		}
 		
 		public void ex3() {

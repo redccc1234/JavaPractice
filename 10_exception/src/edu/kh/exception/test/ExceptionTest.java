@@ -10,6 +10,7 @@ public class ExceptionTest {
 		
 		// 런타임 에러 : 프로그램 수행 중 발생하는 에러
 		//               주로 if 문으로 처리 가능하다.
+		
 		int arr[] = new int[3]; // 길이 3 : 인덱스 0,1,2 까지
 		arr[0] = 10;
 		arr[1] = 20;
