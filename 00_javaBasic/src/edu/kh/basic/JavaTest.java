@@ -58,6 +58,7 @@ public class JavaTest {
 		System.out.println("A"+"B"+"형"); //AB형
 		System.out.println("O"+"형");
 		System.out.println("O형");
+		
 		System.out.println("1+2+3+4");
 		System.out.println(1+2+3+4);
 	}
