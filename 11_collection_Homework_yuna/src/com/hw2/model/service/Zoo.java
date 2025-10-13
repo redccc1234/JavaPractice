@@ -12,7 +12,7 @@ public class Zoo {
 	
 	private Scanner sc = new Scanner(System.in);
 	
-	private List <Animal> animals = new ArrayList<>();
+	private List <Animal> animals; //null
 	
 	public Zoo() {}
 	
