@@ -161,18 +161,18 @@ public class MemberService {
 		
 		// 2)memberArr 배열 내 요소를 순대대로 접근하여
 		for(int i = 0 ; i <memberArr.length ; i++) {
-			// 2-1) 현재 접근한 요소가 null이 아닌지 확인
-			if(memberArr[i] != null) { //회원 정보가 있을 경우
-				// 2-2) 회원 정보가 있을 경우
-				// -> 회원정보의 (로그인)아이디와, 비밀번호가 같은지 비교
-				if(memberArr[i].getMemberId().endsWith(memberId) &&
-						memberArr[i].getMemberPw().equals(memberPw)) {
-					// 2-3) 아이디/비밀번호 같다면 
-					// 로그인 회원 정보 객체를 참조할 변수
-					// loginMember에 현재 접근 중인 memberArr[i]요소에 저장된 주소를 얕은 복사
-					    loginMember = memberArr[i];
-					    break; // 더 찾을 필요가 없기 때문 -> 더 이상 같은 아이디,비밀번호가 없을 것이라고 예상.
-					                                        //효율을 위해 for문 종료
+		// 2-1) 현재 접근한 요소가 null이 아닌지 확인
+		if(memberArr[i] != null) { //회원 정보가 있을 경우
+		// 2-2) 회원 정보가 있을 경우
+		// -> 회원정보의 (로그인)아이디와, 비밀번호가 같은지 비교
+			if(memberArr[i].getMemberId().endsWith(memberId) &&
+				memberArr[i].getMemberPw().equals(memberPw)) {
+				// 2-3) 아이디/비밀번호 같다면 
+				// 로그인 회원 정보 객체를 참조할 변수
+				// loginMember에 현재 접근 중인 memberArr[i]요소에 저장된 주소를 얕은 복사
+					 loginMember = memberArr[i];
+					 break; // 더 찾을 필요가 없기 때문 -> 더 이상 같은 아이디,비밀번호가 없을 것이라고 예상.
+					 //효율을 위해 for문 종료
 				}				
 			}			
 		}//for문 종료
@@ -204,7 +204,6 @@ public class MemberService {
 			return "로그인 후 이용바람";
 		}
 		
-	
 	}
 	
 	// 회원 정보 수정 메서드
@@ -236,10 +235,6 @@ public class MemberService {
 			}
 		}
 		return 0;
-	
-		
-		
-		
 	
 
 	} 
