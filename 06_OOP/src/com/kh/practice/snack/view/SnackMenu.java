@@ -4,12 +4,15 @@ import java.util.Scanner;
 
 import com.kh.practice.snack.controller.SnackController;
 
+// View : 사용자에게 보여줄 응답화면 관련된 코드가 모인 패키지
 public class SnackMenu {
 	
+	//필드
 	Scanner sc = new Scanner(System.in);
 	SnackController scr = new SnackController();
 	
- 		public void menu() {
+	//메서드
+ 	public void menu() {
  			
  			System.out.println("스낵류를 입력하세요.");
  			System.out.print("종류 : ");
@@ -30,7 +33,7 @@ public class SnackMenu {
  			System.out.print(scr.saveData(inputKind, inputName, inputFlavor, inputNumof, inputPrice));
  			String input = sc.next();
  			
- 			if(input.equals("y")) {
+ 			if(input.equals("y")) {// 저장된 데이터 출력
  				System.out.println(scr.confirmData());
  			}
 

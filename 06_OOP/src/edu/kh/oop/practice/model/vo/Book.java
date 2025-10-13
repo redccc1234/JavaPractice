@@ -2,13 +2,16 @@ package edu.kh.oop.practice.model.vo;
 
 public class Book {
 
+	// 필드
 	private String title;
 	private int price;
 	private double discountRate;
 	private String author;
 	
+	//기본 생성자
 	public Book() {}
 
+	//매개변수 생성자
 	public Book(String title, int price, double discountRate, String author) {
 		
 		this.title = title;
