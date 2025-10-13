@@ -12,7 +12,4 @@ public class UserException extends Exception{
 		// -> Throwable 생성자까지 전달
 	 }
 	
-	
-	
-	
 }

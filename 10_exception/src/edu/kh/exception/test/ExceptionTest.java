@@ -25,8 +25,6 @@ public class ExceptionTest {
 			arr[3] = 40;
 			System.out.println("배열 범위 안정적....");
 		}
-		
-		
 
 	}
 
