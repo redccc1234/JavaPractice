@@ -149,7 +149,4 @@ public class Array2Examlpe {
 		System.out.println(Arrays.deepToString(arr));		
 	}
 	
-	
-	
-	
 }
