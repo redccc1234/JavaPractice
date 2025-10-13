@@ -20,7 +20,7 @@ public class Student extends Person{
 	
 	
 	public Student() {
-		// super();
+		// super(); 생략
 	}
 
 	public Student(String name, int age, String nationality, int grade, int classroom) {
