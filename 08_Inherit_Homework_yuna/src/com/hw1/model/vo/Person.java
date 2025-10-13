@@ -3,6 +3,7 @@ package com.hw1.model.vo;
 public class Person {
 
 	protected String name;
+	// 상속받은 후손클래스에서 직접 접근 가능함
 	private int age;
 	private double height;
 	private double weight;

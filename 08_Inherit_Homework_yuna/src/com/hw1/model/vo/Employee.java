@@ -12,6 +12,7 @@ public class Employee extends Person{
 			super(age, height, weight);
 			
 			this.name = name;
+			// 부모 Person에 작성된 필드 중 protected 접급제한자 name
 			this.salary = salary;
 			this.dept = dept;
 		}
