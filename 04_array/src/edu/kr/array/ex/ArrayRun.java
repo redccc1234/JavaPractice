@@ -6,9 +6,5 @@ public class ArrayRun {
 
 		ArrayExample2 ae = new ArrayExample2();
 		ae. createLottoNumber();
-		
-		
-		
 	}
-
 }

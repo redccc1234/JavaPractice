@@ -82,14 +82,6 @@ public class PracticeService {
 				System.out.print(arr[i]+" ");
 			}
 		}
-		
-	
-		
-		
-		
-		
-		
-		
 	    
 	}
 	
@@ -247,8 +239,6 @@ public class PracticeService {
 			}
 			System.out.print(arr[i]);
 		}
-		
-		
 
 	}
 	
@@ -436,41 +426,34 @@ public class PracticeService {
 		
 		for(int i = 0 ; i < result.length() ; i++) {
 			ch[i] = result.charAt(i); // 문자열을 하나하나 쪼갬 
-			
 		}
-				int count = 0; // 개수 변수
-				System.out.print("문자열에 있는 문자 : " );
+			int count = 0; // 개수 변수
+			System.out.print("문자열에 있는 문자 : " );
 				
-					for(int i = 0 ; i < result.length() ; i++) {
+			for(int i = 0 ; i < result.length() ; i++) {
 						
-						boolean flag = true; // 같은 문자가 있는지 없는지 확인하기 위한 변수
+				boolean flag = true; // 같은 문자가 있는지 없는지 확인하기 위한 변수
 				
-							for(int j = 0 ; j < result.length() ; j++) {
+			for(int j = 0 ; j < result.length() ; j++) {
 									
-								if(ch[i]==ch[j]) { //  같은 문자를 찾았을 때
-									 flag =false; // 찾음
-									 break;
-								}
-					
+					if(ch[i]==ch[j]) { //  같은 문자를 찾았을 때
+						flag =false; // 찾음
+							break;
 							}
-										if(flag) { // 못찾음
-											if(i == 0) {
-												
-												System.out.print(ch[i]);
-											
-											}else {
-												
-												System.out.print(", " + ch[i]);
-											}
-											count++;
-										}
+						}
+						
+					if(flag) { // 못찾음
+						if(i == 0) {	
+								System.out.print(ch[i]);	
+						}else{		
+								System.out.print(", " + ch[i]);
+						}
+						count++;
+						}
 					}
-					
 					System.out.println();
 					System.out.println("문자 개수 : " + count);
 			
-	
-	
 	}
 	
 	
@@ -560,15 +543,6 @@ public class PracticeService {
 			//9. 배열값 모두 출력
 		    System.out.println(Arrays.toString(arr));
 	}
-		
-		
-		
+	
 	}
 	
-	
-	
-	
-	
-
-
-
