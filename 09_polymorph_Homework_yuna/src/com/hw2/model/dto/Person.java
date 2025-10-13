@@ -32,6 +32,7 @@ public abstract class Person {
 	}
 
 	public abstract String getInfo();
+	// person 정보를 문자열로 리턴
 	
 	
 }
