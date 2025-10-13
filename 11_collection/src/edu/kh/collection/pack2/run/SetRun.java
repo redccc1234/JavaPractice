@@ -8,8 +8,7 @@ public class SetRun {
 		
 		SetService ss = new SetService();
 		ss.method4();
-		
-		
+
 	}
 
 }
