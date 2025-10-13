@@ -120,7 +120,11 @@ public class Employee {
 	}
 	
 	public String information() {
-		return "";
+		return empNo + ", " + empName + ", " 
+				+ dept  + ", " + job + ", " 
+				+ age + ", " + gender + ", " 
+				+ salary + ", " + bonusPoint + ", " 
+				+ phone + ", " + address;
 	}
 	
 	
