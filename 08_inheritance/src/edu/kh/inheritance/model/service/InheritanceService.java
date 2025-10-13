@@ -70,7 +70,5 @@ public class InheritanceService {
 		System.out.println(emp.toString());
 		
 	}
-	
-	
-	
+
 }
