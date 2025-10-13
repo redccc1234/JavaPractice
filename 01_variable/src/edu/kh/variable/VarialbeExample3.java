@@ -43,9 +43,7 @@ public class VarialbeExample3 {
 		System.out.println(ch1);
 		int i1 = ch1;
 		System.out.println(i1);
-		
-	
-		
+
 	}
 
 }

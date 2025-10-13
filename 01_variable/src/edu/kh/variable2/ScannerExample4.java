@@ -22,14 +22,6 @@ public class ScannerExample4 {
 		System.out.print("nextLine() 입력 : ");
 		String word = sc.nextLine(); //공백까지 포함(개행 포함)
 		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

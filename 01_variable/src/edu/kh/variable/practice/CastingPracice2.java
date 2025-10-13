@@ -51,7 +51,6 @@ public class CastingPracice2 {
 	int score1 = 87, score2 =92;
 	double avgScore = (score1 + score2)/2.0;
 	System.out.printf("%s님의 매칭 점수 평균은 %.1f점입니다!\n", name, avgScore);
-	
-	
+
 	}
 }

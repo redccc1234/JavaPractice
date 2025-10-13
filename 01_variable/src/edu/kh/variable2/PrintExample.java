@@ -63,9 +63,6 @@ public class PrintExample {
 		// 65를 16진수로 표현
 		// 65 나누기 16 몫 4 나머지 1 
 		
-	
-	
-	
 	}
 
 }

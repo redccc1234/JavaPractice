@@ -41,8 +41,7 @@ public class VariableExample4 {
 		int i6 = 2147483647; // int형의 최대값
 		int result2 = i6 + 1;
 		System.out.println(result2);
-		
-		
+	
 	}
 
 }

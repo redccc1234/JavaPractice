@@ -35,7 +35,6 @@ public class ScannrExample3 {
 		String test3 = sc.next();
 		
 		System.out.printf("%s %s %s", test , test2, test3);
-		
-		
+
 	}
 }

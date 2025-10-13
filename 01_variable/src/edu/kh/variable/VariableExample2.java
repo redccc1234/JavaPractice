@@ -123,10 +123,7 @@ public class VariableExample2 {
 		final int MAX_AGE = 130;
 		final int LEFT_MOVE = -1;
 		final int RIGHT_MOVE = 1;
-		
-		
-		
-	
+
 	}
 
 }

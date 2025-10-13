@@ -42,7 +42,6 @@ public class CastingPractice1 {
 		
 		System.out.println("'" +(char)(ch + iNum1)+ "'"); // 'K'
 		
-
 	}
 
 }
