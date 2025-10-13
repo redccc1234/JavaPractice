@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class BranchExanple2 {
   
-	
 	Scanner sc = new Scanner(System.in);
 
-	
 	public void ex1() {
 		
 		int money = 10000;

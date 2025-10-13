@@ -1,6 +1,6 @@
 package edu.kh.control.loop;
 
-public class LoopRun {
+public class LoopRun { // 실행용 메서드
 
 	public static void main(String[] args) {
 		
@@ -10,10 +10,5 @@ public class LoopRun {
 		WhlieExample we =new WhlieExample();
 		we.ex2();
 	
-	
 	}	
-	
-	
-	
-
 }

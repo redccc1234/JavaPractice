@@ -115,12 +115,9 @@ public class ConditionExample {// 기능 제고용 클래스
 			}else {
 			season = "해당하는 계절이 없습니다";
 			}
-		   
-			
+	
 			System.out.println(season);
-			
-		
-			
+	
 		}
 	}
 	public void ex5() {

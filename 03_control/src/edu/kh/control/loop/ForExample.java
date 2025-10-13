@@ -153,8 +153,7 @@ public class ForExample {
 		System.out.printf("%d의 배수 합계 : %d" ,num,sum);
 		
 	}
-	
-	
+
 	public void ex8() {
 		// 구구단 모두 출력하기
 		// 2~9단
