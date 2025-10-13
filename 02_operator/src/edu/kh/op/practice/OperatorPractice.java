@@ -102,7 +102,5 @@ public class OperatorPractice {
 		System.out.println( result ? "합격":"불합격");
 		
 	 }
-	 
-	 
-	 
+	  
 }

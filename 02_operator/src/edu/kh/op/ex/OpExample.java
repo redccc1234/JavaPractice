@@ -87,9 +87,6 @@ public class OpExample {
 			System.out.println(99 < 64); // false
 			System.out.println(99 <= 100); // true
 			
-			
-			
-			
 		}
 		
 	public void testEx3() { 
@@ -116,8 +113,7 @@ public class OpExample {
 		// c는 10을 초과하거나 짝수인가?
 		System.out.println((c >10) || (c % 2 == 0));
 		// true
-		
-		
+
 	}
 	
 	public void testEx4() {
@@ -154,9 +150,7 @@ public class OpExample {
 		String result2 = intNum >= 0 ? "양수입니다." : "음수입니다.";
 		
 		System.out.println(result2);
-		
-		
-		
+
 	}
 	
 	public void testEx5() {
@@ -185,10 +179,8 @@ public class OpExample {
 		// 비트 단위 부정(NOT) 연산자
 		int c = 5;
 		System.out.println(~c);
-		
-	
+
 	}
-	
 
 }
 		
