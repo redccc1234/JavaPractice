@@ -1,11 +1,9 @@
 package com.hw2.model.service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 import com.hw2.model.dto.Animal;
-import com.hw2.model.dto.Tiger;
 
 
 public class Zoo {
