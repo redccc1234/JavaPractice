@@ -62,9 +62,7 @@ public class ObjectService {
 			}
 			
 		}
-		 
-		
-		
+	
 	}
 	
 	/**
@@ -104,6 +102,5 @@ public class ObjectService {
 				e.printStackTrace();
 			}
 		}
-		
 	}
 }

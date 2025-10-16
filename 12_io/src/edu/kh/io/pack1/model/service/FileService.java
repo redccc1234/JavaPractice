@@ -119,7 +119,7 @@ public class FileService {
 		
 		if(!file.exists()) {// 존재하지 않으면 
 			// 파일 생성
-			
+			file.mkdirs();
 			// File 클래스의 메서드는 대부분 IOException 발생
 			// -> IOException는 반드시 예외처리를 해야하는 CheckedException
 			// -> 예외 처리 필수!
@@ -133,12 +133,6 @@ public class FileService {
 				e.printStackTrace();
 			}
 		}
-		
-		
-		
-		
-		
-		
 	}
 	
 	

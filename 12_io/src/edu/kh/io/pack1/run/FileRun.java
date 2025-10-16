@@ -4,8 +4,16 @@ import edu.kh.io.pack1.model.service.FileService;
 
 public class FileRun {
 	public static void main(String[] args) {
+		
 		FileService fs = new FileService();
 		fs.method3();
 				
 	}
+	
+	
 }
+
+
+
+
+ 

@@ -223,7 +223,7 @@ public class ByteService {
 			  value = fis.read(); // 1byte 씩 읽어오기
 			  // 단, 더 이상 읽어올 값이 없으면 -1 반환
 			  
-			  if(value == -1 ) break; // 다 읽었으면 반복 멈춤
+			  if(value == -1) break; // 다 읽었으면 반복 멈춤
 			  
 			  sb.append((char)value);
 			  // char로 강제형변환해서 문자 형태로 sb에 추가

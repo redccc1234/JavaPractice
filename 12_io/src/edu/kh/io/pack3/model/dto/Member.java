@@ -6,7 +6,7 @@ import java.io.Serializable;
 // - 추상메서드가 하나도 없는 인터페이스
 // - 상속만 받아도 입/출력 시 직렬화가 가능하다는 의미(표시)만 제공
 // --> 마커 인터페이스
-public class Member implements Serializable {
+ public class Member implements Serializable {
 
 	private static final long serialversionUID = 1l;
 	// serialversionUID
@@ -67,12 +67,5 @@ public class Member implements Serializable {
 	public String toString() {
 		return "Member [id=" + id + ", pw=" + pw + ", name=" + name + ", age=" + age + "]";
 	}
-	
-	// 메서드
-	
-	
-	
-	
-	
 	
 }
